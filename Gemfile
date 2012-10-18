@@ -7,5 +7,7 @@ gem 'rails', '2.3.11'
 
 #gem 'mysql'
 gem 'pg'
+gem 'heroku_san'
+gem 'hirb'
 
 
