@@ -1,0 +1,2 @@
+page.insert_html :top, "list_url", :partial => 'post', :object => @post
+page["new_post"].reset

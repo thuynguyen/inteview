@@ -1,0 +1,3 @@
+<div>
+  <%=post.view_url%>
+</div>

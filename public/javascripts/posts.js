@@ -1,0 +1,18 @@
+$("#save_url").click(function(e) {
+  var form;
+  form = $("form");
+  return $.ajax({
+    type: "GET",
+    url: form.attr("action"),
+    data: form.serialize(),
+    success: function(data) {
+      $(".find-team .list-teams .loading").addClass("none");
+      $(".find-team .list-teams .teams").html(data);
+      return $(".find-team .list-teams .teams").show();
+    },
+    error: function(data) {
+      $(".find-team .list-teams .loading").addClass("none");
+      return $(".find-team .list-teams .teams").show();
+    }
+  });
+});

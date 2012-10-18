@@ -1,0 +1,25 @@
+<div id="sub">
+  <div class="center">
+    <div class="title">
+      <h2>New Website Address</h2>
+    </div>
+    <div class="intro">
+       <% remote_form_for :post, @post, :url => posts_path, :html => { :method => :post, :id => "new_post" } do |f| %>
+        <p>
+        <label for="url">Url Address:</label>
+        <%= f.text_field :url %>
+        </p>
+       
+        <p>
+          <%= f.submit 'Create' %>
+        </p>
+      <% end %>
+  </div>
+    <h3>List Website Address</h3>
+    <div id='list_url'>
+      <%= render :partial => "list_url"%>
+    </div>
+  </div>
+</div>
+    
+

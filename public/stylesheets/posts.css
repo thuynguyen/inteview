@@ -1,0 +1,58 @@
+html, body, div, h5, h6, ul, ol, dl, li, dt, dd,  blockquote, pre, form, fieldset, table, th, td {
+margin: 0;
+padding: 0;
+}
+#sub .center {
+  background: #393939;
+  color: #fff;
+  font-size: 13px;
+  position: absolute;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.intro h2 {
+  color: #fff;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+  font-stretch: condensed;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.intro h2 strong {
+  color: #bcbcbc;
+  font-weight: inherit;
+}
+#sub h2 {
+  color: #ffd800;
+  font: bold 22px 'Arial', 'Helvetica', sans-serif;
+  margin-bottom: 20px;
+  position: relative;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+form#new_post {
+  width: 500px;
+  label {
+    float: left;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin: 12px 10px 0 0;
+    width: 107px;
+  }
+}
+#post_url {
+  padding: 12px;
+}
+
+#post_submit, h3.align-left {
+  margin-left: 86px;
+}
+#list_url {
+  padding-left:86px !important;
+}

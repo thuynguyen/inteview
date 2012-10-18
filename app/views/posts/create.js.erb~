@@ -1,0 +1,3 @@
+alert($("#list_url"));
+$("#list_url").html("<%= render :partial => "list_url", :locals => {:posts => @posts} %>")
+

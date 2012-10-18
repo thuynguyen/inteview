@@ -1,0 +1,6 @@
+<%@posts.each do |post|%>
+  <div>
+    <%= post.view_url%>
+  </div>
+<%end%>
+
