@@ -19,7 +19,10 @@ class Post < ActiveRecord::Base
       view_url = self.url.split("https://www.").last
       view_url = view_url.split("/").first
     elsif self.url.include?"https://" 
-      view_url = self.url.split("https://www.").last
+      view_url = self.url.split("https://").last
+      view_url = view_url.split("/").first
+    elsif self.url.include?"http://" 
+      view_url = self.url.split("http://").last
       view_url = view_url.split("/").first
     elsif self.url.include?"www."
       view_url = self.url.split("www.").last
