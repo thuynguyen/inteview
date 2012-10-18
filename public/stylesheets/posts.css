@@ -1,4 +1,4 @@
-html, body, div, h5, h6, ul, ol, dl, li, dt, dd,  blockquote, pre, form, fieldset, table, th, td {
+html, body, div, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td {
 margin: 0;
 padding: 0;
 }
@@ -52,6 +52,7 @@ form#new_post {
 
 #post_submit, h3.align-left {
   margin-left: 86px;
+  margin-top: 10px;
 }
 #list_url {
   padding-left:86px !important;
